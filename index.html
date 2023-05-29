@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/img/navhead.png">
+    <title>Tic Tac Toe using |HTML CSS AND JS</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="navbarclass">
+                <img src="img/navhead.png">
+                <a class=" nav-title">Tic Tac Toe</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- this is my main container -->
+
+    <div class="main-container">
+        <div class="btn-container">
+            <div class="row top-sec">
+                <div class="col btn-class logo" style="pointer-events:none;" value=""></div>
+                <div class="col btn-class turn" style="pointer-events:none;" value=""><span
+                        class="turnchage">X</span>Turn</div>
+                <div class="col reset" value="">Reset</div>
+
+            </div>
+
+
+            <div class="row">
+                <button class="col btn-class button1" value=""></button>
+                <button class="col btn-class button2" value=""></button>
+                <button class="col btn-class button3" value=""></button>
+
+            </div>
+            <div class="row">
+                <button class="col btn-class button4" value=""></button>
+                <button class="col btn-class button5" value=""></button>
+                <button class="col btn-class button6" value=""></button>
+
+            </div>
+            <div class="row">
+                <button class="col btn-class button7" value=""></button>
+                <button class="col btn-class button8" value=""></button>
+                <button class="col btn-class button9" value=""></button>
+
+            </div>
+
+
+            <div class="row bottom-sec">
+                <div class="col btn-class you" style="pointer-events:none;" value="">
+                    <h4>X(You)</h4>
+                    <p class="youp">0</p>
+                </div>
+                <div class="col btn-class  tie" style="pointer-events:none;" value="">
+                    <h4>Tie</h4>
+                    <p class="tiep">0</p>
+                </div>
+                <div class="col btn-class comp" style="pointer-events:none;" value="">
+                    <h4>O(Oppo)</h4>
+                    <p class="compp">0</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- this is a div for the pop up msg -->
+
+        <div id="popupDiv">
+            <h2 class="res"></h2>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</html>
