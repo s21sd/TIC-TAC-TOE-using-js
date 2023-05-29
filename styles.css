@@ -70,11 +70,7 @@ body {
 }
 
 .btn-class , .reset {
-    cursor: grab;
-    text-align: center;
-    height: 90px;
-    text-align: center;
-    font-size: 2.4rem;
+    height: 80px;
     color: #babecc;
     background-color: #1b2d35;
     border-radius: 12px;
@@ -129,4 +125,40 @@ body {
     -5px -5px 10px #738188;
    
   }
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+
+    .main-container {
+        width: 300px;
+
+    }
+
+    .btn-class,
+    .reset {
+        height: 70px;
+        width: 70px;
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .top-sec .turn {
+        margin-top: 5px;
+        font-size: 2em sans-serif;
+
+    }
+
+    .top-sec .reset {
+        margin-top: 5px;
+        font-size: 2em sans-serif;
+
+    }
+
+
+}
   
