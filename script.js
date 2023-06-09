@@ -67,6 +67,20 @@ function disablededbtn() {
 
 }
 
+
+function enablebtn() {
+    s1.disabled = false;
+    s2.disabled = false;
+    s3.disabled = false;
+    s4.disabled = false;
+    s5.disabled = false;
+    s6.disabled = false;
+    s7.disabled = false;
+    s8.disabled = false;
+    s9.disabled = false;
+
+}
+
 function hidePop() {
     popupDiv.style.display = 'none'
 }
